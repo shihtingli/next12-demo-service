@@ -1,0 +1,29 @@
+{
+  "name": "next12-demo-service",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "fastify": "^3.23.1",
+    "pino-pretty": "^7.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "^16.11.7",
+    "typescript": "^4.4.4"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "node out/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shihtingli/next12-demo-service.git"
+  },
+  "author": "silviali",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shihtingli/next12-demo-service/issues"
+  },
+  "homepage": "https://github.com/shihtingli/next12-demo-service#readme"
+}
