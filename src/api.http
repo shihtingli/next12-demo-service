@@ -1,3 +1,13 @@
 GET http://localhost:8888/ping HTTP/1.1
 
 ###
+GET http://localhost:8888/v1/cats HTTP/1.1
+
+###
+POST http://localhost:8888/v1/cats HTTP/1.1
+content-type: application/json
+
+{
+    "name": "neko",
+    "weight": "3"
+}
