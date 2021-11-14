@@ -1,6 +1,6 @@
 interface ICat {
-  name: string;
-  weight: number;
+  name: string
+  weight: number
 }
 
-export { ICat };
+export { ICat }

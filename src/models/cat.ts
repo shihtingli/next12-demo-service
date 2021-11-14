@@ -1,20 +1,20 @@
-import { model, Schema } from "mongoose";
-import { ICat } from "../types/cat";
+import { model, Schema } from 'mongoose'
+import { ICat } from '../types/cat'
 
 const catSchema: Schema = new Schema(
   {
     name: {
       type: String,
-      required: true,
+      required: true
     },
     weight: {
       type: Number,
-      default: 0,
-    },
+      default: 0
+    }
   },
   {
-    timestamps: true,
+    timestamps: true
   }
-);
+)
 
-export default model<ICat>("Cat", catSchema);
+export default model<ICat>('Cat', catSchema)
